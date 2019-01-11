@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name = "ZXSwitch"
-s.versio = "0.0.1"
+s.version = "0.0.1"
 s.summary = "自己项目用来替代UISwitch控件"
 s.homepage = "https://github.com/kwezdj123/ZXSwitch"
 s.license = { :type => 'MIT', :file => 'LICENSE'}
