@@ -12,9 +12,20 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let mySwitch = ZXSwitch(frame: CGRect(origin: CGPoint(x: 100, y: 100), size: CGSize(width: 49, height: 31)))
+        mySwitch.delegate = self
+        view.addSubview(mySwitch)
     }
 
-
 }
-
+extension ViewController:ZXSwitchDelegate{
+    
+    func didChangedStatus(_ status: Bool) {
+        
+    }
+    
+    func willChangeStatus(_ status: Bool, isAllowChange: (Bool) -> Void) {
+        
+    }
+    
+}

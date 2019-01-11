@@ -14,6 +14,10 @@
 		D52485E721E873480001991F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52485E521E873480001991F /* LaunchScreen.storyboard */; };
 		D52485F221E873480001991F /* ZXSwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52485F121E873480001991F /* ZXSwitchTests.swift */; };
 		D52485FD21E873480001991F /* ZXSwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52485FC21E873480001991F /* ZXSwitchUITests.swift */; };
+		D524860F21E874A40001991F /* ZXSwitchSetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D524860B21E874A40001991F /* ZXSwitchSetUp.swift */; };
+		D524861021E874A40001991F /* ZXSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D524860C21E874A40001991F /* ZXSwitch.swift */; };
+		D524861121E874A40001991F /* ZXSwitchProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D524860D21E874A40001991F /* ZXSwitchProtocol.swift */; };
+		D524861221E874A40001991F /* ZXSwitchSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D524860E21E874A40001991F /* ZXSwitchSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		D52485F821E873480001991F /* ZXSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52485FC21E873480001991F /* ZXSwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXSwitchUITests.swift; sourceTree = "<group>"; };
 		D52485FE21E873480001991F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D524860B21E874A40001991F /* ZXSwitchSetUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXSwitchSetUp.swift; sourceTree = "<group>"; };
+		D524860C21E874A40001991F /* ZXSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXSwitch.swift; sourceTree = "<group>"; };
+		D524860D21E874A40001991F /* ZXSwitchProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXSwitchProtocol.swift; sourceTree = "<group>"; };
+		D524860E21E874A40001991F /* ZXSwitchSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXSwitchSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		D52485DB21E873470001991F /* ZXSwitch */ = {
 			isa = PBXGroup;
 			children = (
+				D524860A21E8747F0001991F /* Classes */,
 				D52485DC21E873470001991F /* AppDelegate.swift */,
 				D52485DE21E873470001991F /* ViewController.swift */,
 				D52485E021E873470001991F /* Main.storyboard */,
@@ -123,6 +132,17 @@
 				D52485FE21E873480001991F /* Info.plist */,
 			);
 			path = ZXSwitchUITests;
+			sourceTree = "<group>";
+		};
+		D524860A21E8747F0001991F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D524860C21E874A40001991F /* ZXSwitch.swift */,
+				D524860D21E874A40001991F /* ZXSwitchProtocol.swift */,
+				D524860B21E874A40001991F /* ZXSwitchSetUp.swift */,
+				D524860E21E874A40001991F /* ZXSwitchSlider.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D524861121E874A40001991F /* ZXSwitchProtocol.swift in Sources */,
 				D52485DF21E873470001991F /* ViewController.swift in Sources */,
+				D524861221E874A40001991F /* ZXSwitchSlider.swift in Sources */,
+				D524861021E874A40001991F /* ZXSwitch.swift in Sources */,
+				D524860F21E874A40001991F /* ZXSwitchSetUp.swift in Sources */,
 				D52485DD21E873470001991F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
