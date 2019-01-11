@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 s.name = "ZXSwitch"
 s.version = "0.0.1"
-s.summary = "自己项目用来替代UISwitch控件"
+s.summary = "Switch control"
 s.homepage = "https://github.com/kwezdj123/ZXSwitch"
 s.license = { :type => 'MIT', :file => 'LICENSE'}
 s.author = { 'LoginPig' => 'woshiwangzhezhu@gmail.com' }
@@ -12,5 +12,6 @@ s.source = { :git => 'https://github.com/kwezdj123/ZXSwitch.git'}
 s.frameworks = "UIKit"
 s.source_files = 'ZXSwitch/Classes/*.{swift}'
 s.requires_arc = true
+s.platform     = :ios, "8.0"
 
 end
